@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: lib_ml
-Version: 1.0.1
+Name: lib_ml-remla-team14
+Version: 1.0.2.dev0+g7be9df7.d20240508
 Summary: A ML preprocessing library.
 Home-page: https://github.com/07Liyang/lib_ml
 Author: Yang Li
