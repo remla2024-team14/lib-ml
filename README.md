@@ -1,6 +1,6 @@
-# lib-ml
+# lib_ml_remla_team14_a2
 
-lib-ml contains pre-processing logic for data used in our ML training pipeline.
+lib-mllib-ml-remla-team14-a2 contains pre-processing logic for data used in our ML training pipeline.
 
 ## Features
 
@@ -9,7 +9,8 @@ lib-ml contains pre-processing logic for data used in our ML training pipeline.
 
 ## Installation
 
-Install lib-ml using pip:
+Install lib_ml_remla_team14_a2 using pip:
 
 ```bash
-pip install lib-ml
+pip install lib_ml_remla_team14_a2
+```

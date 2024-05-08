@@ -2,8 +2,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='lib_ml-remla-team14',
-    use_scm_version={'root': '.', 'relative_to': __file__, 'write_to': 'lib_ml/version.py'},
+    name='lib_ml_remla_team14_a2',
+    use_scm_version={'root': '.', 'relative_to': __file__, 'write_to': 'lib_ml/version.py',
+                     "local_scheme": "no-local-version"},
     setup_requires=['setuptools_scm'],
     author='Yang Li',
     author_email='ly20000325@gmail.com',
