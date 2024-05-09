@@ -5,4 +5,4 @@ requires = [
     "setuptools_scm>=8"
 ]
 [tool.setuptools_scm]
-write_to = "src/lib-ml/version.py"
+write_to = "lib_ml/version.py"
