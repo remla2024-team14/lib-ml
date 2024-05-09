@@ -66,10 +66,3 @@ The `transform_text` method returns an array of tokenized and padded sequences, 
 print(processed_texts)  # Output will be a NumPy array of processed text data
 
 ```
-
-
-
-
-### Importing the Class
-
-<pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><br class="Apple-interchange-newline"/></div></div></pre>
