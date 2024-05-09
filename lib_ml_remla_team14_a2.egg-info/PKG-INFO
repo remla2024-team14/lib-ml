@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lib_ml_remla_team14_a2
-Version: 1.0.2.dev1
+Version: 1.0.5.dev0
 Summary: A ML preprocessing library.
 Home-page: https://github.com/07Liyang/lib_ml
 Author: Yang Li
@@ -20,7 +20,7 @@ Requires-Dist: tensorflow
 
 # lib_ml_remla_team14_a2
 
-lib-mllib-ml-remla-team14-a2 contains pre-processing logic for data used in our ML training pipeline.
+lib_ml_remla_team14_a2 contains pre-processing logic for data used in our ML training pipeline.
 
 ## Features
 
