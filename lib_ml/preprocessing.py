@@ -1,7 +1,7 @@
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
-
+import logging
 class TextPreprocessor:
     DEFAULT_CONFIG = {
         'lower': True,
@@ -26,5 +26,9 @@ class TextPreprocessor:
 
     def transform_text(self, text_list):
         sequences = self.tokenizer.texts_to_sequences(text_list)
-        padded_sequences = pad_sequences(sequences, maxlen=self.sequence_length)
+        filtered_sequences = [seq for seq in sequences if seq]
+        if not filtered_sequences:
+            logging.error("No valid sequences available for padding.")
+            return None
+        padded_sequences = pad_sequences(filtered_sequences, maxlen=self.sequence_length)
         return padded_sequences
