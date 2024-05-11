@@ -67,8 +67,6 @@ setup.py
 .idea/vcs.xml
 .idea/inspectionProfiles/Project_Default.xml
 .idea/inspectionProfiles/profiles_settings.xml
-dist/lib_ml_remla_team14_a2-1.0.5.dev0-py3-none-any.whl
-dist/lib_ml_remla_team14_a2-1.0.5.dev0.tar.gz
 lib_ml/__init__.py
 lib_ml/preprocessing.py
 lib_ml/version.py
