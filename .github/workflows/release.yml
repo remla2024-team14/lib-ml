@@ -60,10 +60,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install setuptools wheel twine
 
+    # Both source distribution (.tar.gz or .zip) and built distribution (.whl) are built
     - name: Build Distribution
       run: |
-        python setup.py sdist bdist_wheel 
+        python setup.py sdist bdist_wheel    
 
+    # Upload all files to PyPi
     - name: Publish lib to PyPI
       if: startsWith(github.ref, 'refs/tags/v')
       run: |
